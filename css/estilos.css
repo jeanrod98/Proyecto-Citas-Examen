@@ -394,18 +394,28 @@ header nav a:hover{
    background: rgb(255, 255, 255);
    width: 30%;
    margin-left: 5px;
+   font-size: 10px;
+    height: 30px;
+    font-weight: bold;
 }
 
 #btn-modificar{
     background: rgb(255, 255, 255);
     width: 30%;
     margin-left: 5px;
+    font-size: 10px;
+    height: 30px;
+    font-weight: bold;
      
  }
  #btn-aceptar{
     background: rgb(255, 255, 255);
     width: 30%;
     margin-left: 5px;
+    font-size: 10px;
+    height: 30px;
+    font-weight: bold;
+    
  }
  #btn-modificar:hover{
      background: rgb(206, 209, 17);
