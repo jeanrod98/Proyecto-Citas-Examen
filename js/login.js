@@ -16,9 +16,8 @@ formulario.addEventListener('submit', (e) => {
     if (usuario == usuarioAdmin && contrasenia == contraseniaAdmin) {
         console.log('sesion de Administrador iniciada')
         location.href = 'administrador.html'
-    }
-    //comprobamos que el usuario existe
-    if (objetoUsuario) {
+        //comprobamos que el usuario existe
+    }else if (objetoUsuario) {
 
 
 
