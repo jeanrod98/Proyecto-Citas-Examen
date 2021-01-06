@@ -1,0 +1,100 @@
+.login-contenido{
+   
+    width: 100%;    
+   
+   height: 100vh;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.formulario{
+   margin-top: 200px;
+    width: 20%;
+    height: 450px;
+    background: rgba(10, 128, 126, 0.583);
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid;
+    
+}
+
+.logo-login{
+    width: 110px;
+    height: 100px;
+    position: absolute;
+    top: 200px;
+    left: calc(50% - 60px);
+}
+.formulario h2{
+    margin:0;
+    padding:0;
+    padding-top:50px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.formulario label{
+   
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+   
+ 
+}
+.formulario input{
+    
+    width: 80%;
+    margin-bottom: 20px;
+
+}
+.formulario input[type="text"],
+.formulario input[type="password"]{
+border: none;
+border-bottom: 1px solid #000;
+background: transparent;
+outline:  none;
+height: 30px;
+color: rgb(255, 255, 255);
+font-size: 16px;
+}
+#btn-login{
+    border: none;
+    outline: none;
+    height: 40px;
+    background:  rgba(255, 255, 255, 0.583);
+    color: rgb(7, 7, 7);
+    font-size: 18px;
+    border-radius: 8px;
+    font-weight: bold;
+    }
+#btn-login:hover{
+   background: rgba(10, 128, 126, 0.583);
+   color: #fff;
+}
+.formulario a{
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 20px;
+    color: rgb(255, 255, 255);
+}
+.formulario a:hover{
+   
+    color: rgb(255, 255, 255);
+}
+
+.formulario__input-error-login{
+    
+    display: none;
+    color: rgb(208, 14, 14);
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.formulario__input-error-login-activo{
+    display: block;
+}

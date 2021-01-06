@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <title>Perfil</title>
+</head>
+
+<body>
+    <header>
+        <div class="wrapper">
+
+            <div class="logo">
+                <!-- imagen de la web -->
+                <a href="index.html">
+                    <img src="img/logo-pets.png" class="img-logo"></a>
+
+
+            </div>
+
+            <nav class="menu">
+                <a href="consultaUsuario.html">Consultar Citas</a>
+                <a href="usuario.html">Agendar Citas</a>
+                <a href="login.html" id="cerrar-sesion">Cerrar Sesión</a>
+                <!-- <a href="informacion.html">Conozcanos</a> -->
+
+            </nav>
+
+        </div>
+    </header>
+    <!-- Contenido de la página de inicio -->
+    <div class="contenido wrapper">
+        <main>
+            <h1>Formulario para Cita</h1>
+
+
+            <form action="" class="formulario-cita" id="formulario-cita">
+                <div>
+                    <label for="dueño-mascota">Dueño de la mascota</label>
+                    <input type="text" name="dueño-mascota" id="dueño-mascota" disabled>
+                </div>
+
+
+                <div>
+                    <label for="nombre-mascota">Nombre de su mascota</label>
+                    <input type="text" name="nombre-mascota" id="nombre-mascota">
+                </div>
+
+                <div>
+                    <label for="tipo-mascota">Típo de mascota</label>
+                    <select name="tipo-mascota" id="tipo-mascota">
+                        <option value="Perros">Perros</option>
+                        <option value="Gatos">Gatos</option>
+                        <option value="Tortugas">Tortugas</option>
+                        <option value="Conejos">Conejos</option>
+                        <option value="Hamsters">Hámsters</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="fecha-mascota">Fecha para la cita</label>
+                    <input type="date" name="fecha-mascota" id="fecha-mascota">
+                </div>
+                <div class="textarea">
+
+                    <textarea name="sintomas" id="sintomas" cols="50" rows="10"
+                        placeholder="Ingrese los síntomas que presenta su mascota..."></textarea>
+                </div>
+
+                <div>
+                    <input type="submit" value="Enviar" id="btn-enviarCita">
+                </div>
+                <div class="formulario__p-enviado">
+                    <p class="">¡Cita enviada con éxito!</p>
+                </div>
+
+                <div class="formulario__campoObligatorio-error">
+                    <p class="">¡Campos Obligatorios!</p>
+                </div>
+                <div class="formulario__p-error">
+                    <p class="">Ya tiene citas sin aprobar, espere que el administrador acepte su cita para poder sacar
+                        otra</p>
+                </div>
+
+            </form>
+
+        </main>
+
+    </div>
+
+    <footer id="footer" class="footer">
+        <div class="info">
+            <a href="nosotros.html" id="btn-info">¿Quienes Somos?</a>
+        </div>
+        <div class="centrar-footer">
+
+            <h3>Pets - Store</h3>
+            <h4>Todos los derechos reservados 2021</h4>
+        </div>
+    </footer>
+    <script src="js/usuario.js"></script>
+</body>
+
+</html>

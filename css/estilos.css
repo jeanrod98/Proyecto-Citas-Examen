@@ -1,0 +1,539 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('estilos-login.css');
+@import url('estilos-registro.css');
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    background: rgb(239, 240, 241);
+}
+
+header{
+    position: fixed;
+    background: rgb(255, 255, 255);
+    width: 100%;
+    height: 125px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    border-bottom:2px solid #aaa;
+    z-index: 100;
+    
+    
+
+  
+}
+.img-logo{
+    width: 150px;
+    height: 120px;
+   
+}
+
+.wrapper{
+    width: 90%;
+    max-width: 2000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+header .logo{
+
+    float: left;
+}
+header nav {
+    float: right;
+    line-height:125px;
+
+}
+
+header nav a {
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 50px 20px;
+    line-height: normal;
+    font-size: 20px;
+    font-weight: bold;
+    
+
+}
+
+header nav a:hover{
+    background: rgba(10, 128, 126, 0.946);
+    color: #fff;
+ 
+
+}
+.contenido{
+    padding-top: 145px;
+  
+}
+.contenido p{
+    margin-bottom: 1em;
+}
+.footer {
+    text-align: center;
+    margin-top: 40px;
+    border-top:3px solid #aaa;;
+    padding-top: 40px;   
+    background: rgb(205, 210, 213);
+   
+    
+}
+.centrar-footer {
+  margin-top: 20px;
+   
+}
+#btn-info{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 10px 20px;
+   
+    font-size: 20px;
+    font-weight: bold;
+    background: rgb(255, 255, 255);
+    border: 1px solid;
+    
+}
+#btn-info:hover{
+    background: rgba(10, 128, 126, 0.946);
+    color: rgb(255, 255, 255);
+    
+    
+ 
+}
+#btn-agendar{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 10px 20px;
+   
+    font-size: 20px;
+    font-weight: bold;
+    background: rgb(255, 255, 255);
+    border: 1px solid;
+    
+   
+}
+#btn-agendar:hover{
+    background: rgba(10, 128, 126, 0.946);
+    color: rgb(255, 255, 255);
+    
+ 
+}
+
+
+.detalle{
+    text-align: center;
+    display: grid;
+    grid-gap: 30px;
+    
+}
+
+.agendar{
+    width: 100%;
+    height: 90px;
+    margin-bottom: 8px;
+    margin-top:2em;
+}
+.img-contenido-detalle{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    align-items: center;
+}
+#img-principal{
+    width: 75%;
+    height: 500px;
+}
+#img-1{
+    width: 250px;
+    height: 250px;
+    border-radius: 150px;
+    border: 1px solid;
+}
+#img-2{
+    width: 210px;
+    height: 200px;
+    border-radius: 150px;
+    border: 1px solid;
+}
+#img-3{
+    width: 210px;
+    height: 200px;
+    border-radius: 150px;
+    border: 1px solid;
+}
+.detalle2{
+    width: 33%;
+    text-align: center;
+    
+}
+.detalle3{
+    width: 33%;
+    text-align: center;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+
+.detalle4{
+    width: 33%;
+    text-align: center;
+    
+}
+
+/* Estilos Acera de  */
+
+#img-7, #img-8, #img-9, #img-6 {
+    width: 600px;
+    height: 400px;
+}
+.informacion{
+    display: grid;
+    grid-gap: 20px;
+}
+.informacion-1{
+ display: grid;
+ grid-template-columns: 60% 30%;
+ align-items: center;
+ text-align: center;
+
+}
+
+
+.informacion-2{
+    display: grid;
+    grid-template-columns: 60% 30%;
+     align-items: center;
+    text-align: center;
+} 
+.informacion-3{
+    display: grid;
+    grid-template-columns: 60% 30%;
+     align-items: center;
+    text-align: center;
+}
+.informacion-4{
+    display: grid;
+    grid-template-columns: 60% 30%;
+     align-items: center;
+    text-align: center;
+  
+}
+
+/* Estilos para Formulario de Cita  */
+
+.formulario-cita{
+    background: rgba(10, 128, 126, 0.583);
+    gap: 20px;
+    height: 35rem;
+     text-align: center;
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+    padding-top: 30px;
+
+     justify-content: center;
+     align-items: center;
+}
+.formulario-cita div {
+    width: 100%;   
+   
+}
+.formulario-cita label{
+    font-size: 15px;
+    font-weight: bold;
+}
+.formulario-cita input{
+    width: 40%;
+    height: 20px;
+    margin: 10px;
+}
+
+#sintomas{
+    width: 50%;
+    background: #ffffff;
+    padding: 7px;
+    border-radius: 0px;
+    
+    border: 1px solid #00665f;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+    color: #000;
+    
+}
+#tipo-mascota{
+    width: 15%;
+    height: 30px;
+    margin: 10px;
+}
+#fecha-mascota{
+    width: 16%;
+}
+#btn-enviarCita{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+     height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    background: rgb(255, 255, 255);
+    border: 1px solid;
+}
+
+#btn-enviarCita:hover{
+    background: rgba(10, 128, 126, 0.946);
+    color: rgb(255, 255, 255);
+    
+    
+ 
+}
+
+.formulario__campoObligatorio-error{
+    margin-bottom: 0;
+    display: none;    
+    color: #000000;
+    font-weight: bold;
+    background: #f26565;
+    
+}
+.formulario__campoObligatorio-error p{
+    margin: 10px;
+}
+.formulario__campoObligatorio-error-activo{
+    display: block;
+}
+
+.formulario__p-enviado{
+    margin-bottom: 0;
+    display: none;
+    color: #000000;
+    background: #92df88;
+    font-weight: bold;
+}
+.formulario__p-enviado p {
+    margin: 10px;
+
+}
+.formulario__p-enviado-activo{
+    display: block;
+}
+
+.formulario__p-error{
+    margin-bottom: 0;
+    display: none;    
+    color: #000000;
+    font-weight: bold;
+    background: #f26565;
+}
+.formulario__p-error p{
+    margin: 10px;
+}
+.formulario__p-error-activo{
+    display: block;
+}
+
+
+
+/* Estilos de consulta cliente  */
+.tabla-citas{
+    height: 30em;
+}
+.tabla-titulo{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin-top: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.tabla-detalles{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin-top: 10px;
+    text-align: center;
+    color: rgb(41, 118, 114);
+}
+
+
+/* Estilos de administracion  */
+.metodo-busqueda{
+    height: 10em;
+    width: 100%;
+}
+
+.tabla-citas-admin{
+    height: 30em;
+}
+.tabla-titulo-admin{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+    margin-top: 20px;
+    font-weight: bold;
+  
+}
+
+.tabla-detalles-admin{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+    margin-top: 10px;
+    color: rgb(41, 118, 114);
+}
+.tabla-detalles-admin input{
+    height: 20px;
+    width: 90%;
+   
+}
+
+
+#btn-eliminar{
+   background: rgb(255, 255, 255);
+   width: 30%;
+   margin-left: 5px;
+}
+
+#btn-modificar{
+    background: rgb(255, 255, 255);
+    width: 30%;
+    margin-left: 5px;
+     
+ }
+ #btn-aceptar{
+    background: rgb(255, 255, 255);
+    width: 30%;
+    margin-left: 5px;
+ }
+ #btn-modificar:hover{
+     background: rgb(206, 209, 17);
+ }
+ #btn-aceptar:hover{
+    background: rgb(27, 209, 17);
+}
+
+#btn-eliminar:hover{
+    background: rgb(209, 30, 17);
+}
+.contenedor-busqueda{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    justify-content: center;
+    align-items: center;
+}
+.contenedor-busqueda input{
+    height: 25px;
+}
+.contenedor-busqueda select{
+    height: 25px;
+}
+
+#btn-limpiar{
+    width: 50%;
+    height: 50px;
+    background:  rgb(234, 240, 240);
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    border-radius: 5px;
+    
+
+}
+#btn-limpiar:hover{
+    background:   rgba(10, 128, 126, 0.946);
+    color: #fff;
+    border-style: none;
+}
+.mensaje__accion-eliminar{
+    text-align: center;
+    height: 45px;
+    line-height: 45px;
+    background: #f26565;
+    padding: 0 15px;
+    border-radius: 7px;
+    display: none;
+}
+.mensaje__accion-eliminar-activo{
+    display: block;
+}
+.mensaje__accion-modificar{
+    text-align: center;
+    height: 45px;
+    line-height: 45px;
+    background: #e9eb79;
+    padding: 0 15px;
+    border-radius: 7px;
+    display: none;
+}
+.mensaje__accion-modificar-activo{
+    display: block;
+}
+.mensaje__accion-aceptar{
+    text-align: center;
+    height: 45px;
+    line-height: 45px;
+    background: #92df88;
+    padding: 0 15px;
+    border-radius: 7px;
+    display: none;
+    
+}
+.mensaje__accion-aceptar-activo{
+    display: block;
+}
+
+
+
+/* media queris */
+@media screen and (max-width: 800px){
+   header{
+    position: fixed;
+    background: rgb(255, 255, 255);
+    width: 100%;
+    height: 140px;
+    overflow: hidden;
+    margin-bottom: 20px; 
+    
+   }
+    header nav {
+        width:100%;
+        float: right;
+        line-height:0px;
+
+    }
+   header nav a{
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 9px 10px;
+    line-height: normal;
+    font-size: 20px;
+    font-weight: bold;
+
+   }
+   .img-logo{
+    width: 100px;
+    height: 90px;
+
+   }
+   .contenido{
+    padding-top: 150px;
+  
+}
+.detalle2{
+    width: 100%;
+}
+.detalle3{
+    width: 100%;
+}
+
+
+.detalle4{
+    width: 100%;
+}
+#img-principal{
+    height: 250px;
+}
+
+}

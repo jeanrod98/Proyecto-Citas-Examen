@@ -1,0 +1,32 @@
+*** Información Importante sobre el funcionamiento del Sistema ***
+
+1) El usuario ADMINISTRADOR por defecto tiene las siguientes credenciales:
+
+Usuario: Administrador
+Password: admin1234
+
+2) El sistema esta elaborado de tal forma que un usuario puede Registrarse y Loguearse
+Utilizando el LocalStorage del Navegador.
+
+3) El usuario Logueado podrá sacar una cita, no podrá sacar más de una hasta
+que el administrador apruebe o elimine la que solicito, en caso de ser
+aprobada o eliminada, el usuario podrá sacar otra cita.
+
+4) EL Administrador podrá realizar búsqueda por fechas desde - hasta
+y por tipo de mascota, cuando la cita se aprueba se le asigna un Veterinario
+según el tipo de la mascota.
+
+5) Para poder comprobar los métodos de búsqueda, puede registrar 3 o más usuarios
+y solicitar citas, de este modo en la administración de citas tendrá mas resultados
+para comprobar los métodos de búsqueda. Por las validaciones y el funcionamiento 
+de LocalStorage si el mismo usuario quisiera agregar mas citas el LocalStorage 
+reemplaza el que ya existe de ese usuario porque toma la cedula como llave. 
+
+*Proyecto realizado por:
+	JEAN CARLOS RODRIGUEZ CHOEZ
+*Universidad:
+	Universidad Laica "Eloy Alfaro" de Manabí
+*Facultad:
+	Facultad de Ciencias Informáticas
+*Carrera:
+	Ingeniería en Sistemas 	

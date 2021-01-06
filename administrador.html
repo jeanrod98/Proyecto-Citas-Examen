@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="css/estilos.css">
+  <title>Admin</title>
+</head>
+
+<body>
+
+  <header>
+    <div class="wrapper">
+
+      <div class="logo">
+        <!-- imagen de la web -->
+        <a href="index.html">
+          <img src="img/logo-pets.png" class="img-logo"></a>
+
+
+      </div>
+
+      <nav class="menu">
+
+
+        <a href="login.html">Cerrar Sesión</a>
+        <!-- <a href="informacion.html">Conozcanos</a> -->
+
+      </nav>
+
+    </div>
+  </header>
+  <!-- Contenido de la página de inicio -->
+  <div class="contenido wrapper">
+    <div class="metodo-busqueda">
+      <h1>Metodos de Búsqueda</h1>
+      <div class="contenedor-busqueda">
+        <div class="busqueda-fecha">
+          <label for="desde">Desde: </label>
+          <input type="date" id="desde">
+
+          <label for="hasta">Hasta: </label>
+          <input type="date" id="hasta">
+        </div>
+
+        <div class="busqueda-tipo">
+          <label for="tipo">Tipo de Mascota</label>
+          <Select id="tipo">
+            <option value="">Seleccione un tipo</option>
+            <option value="Perros">Perros</option>
+            <option value="Gatos">Gatos</option>
+            <option value="Tortugas">Tortugas</option>
+            <option value="Conejos">Conejos</option>
+            <option value="Hamsters">Hámsters</option>
+          </Select>
+        </div>
+
+        <div class="btn-busqueda">
+          <button id="btn-limpiar">Limpiar</button>
+        </div>
+      </div>
+
+    </div>
+
+    <h1>Administrador de Citas</h1>
+    <div class="tabla-citas-admin">
+      <div class="mensaje__accion-eliminar" id="formulario__mensaje-eliminar">
+        <p><b>Éxito: </b> La Cita fue Eliminada correctamente.</p>
+
+      </div>
+      <div class="mensaje__accion-aceptar" id="formulario__mensaje-aceptar">
+        <p><b>Éxito: </b> La Cita fue Aceptada correctamente.</p>
+
+      </div>
+      <div class="mensaje__accion-modificar" id="formulario__mensaje-modificar">
+        <p><b>Éxito: </b> La Cita fue Modificada correctamente.</p>
+
+      </div>
+      <div class="tabla-titulo-admin">
+        <h3>Dueño de Mascota</h3>
+        <h3>Nombre de Mascota</h3>
+        <h3>Tipo de Mascotas</h3>
+        <h3>Sintomas</h3>
+        <h3>Fecha de la Cita</h3>
+        <h3>Veterinario</h3>
+
+      </div>
+      <div id="contenido"></div>
+
+
+
+    </div>
+  </div>
+
+
+
+
+
+
+  </div>
+
+  <footer id="footer" class="footer">
+    <div class="info">
+      <a href="nosotros.html" id="btn-info">¿Quienes Somos?</a>
+    </div>
+    <div class="centrar-footer">
+
+      <h3>Pets - Store</h3>
+      <h4>Todos los derechos reservados 2021</h4>
+    </div>
+  </footer>
+  <script src="js/administrador.js"></script>
+</body>
+
+</html>
